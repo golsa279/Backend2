@@ -4455,11 +4455,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Golsa\\OneDrive\\Desktop\\ExBackend2\\Ark.Library.Backend\\Ark.Library.Backend.API\\Ark.Library.Backend.API.csproj",
+      "projectUniqueName": "C:\\Users\\Golsa\\OneDrive\\Desktop\\New folder\\Backend2\\Ark.Library.Backend.API.csproj",
       "projectName": "Ark.Library.Backend.API",
-      "projectPath": "C:\\Users\\Golsa\\OneDrive\\Desktop\\ExBackend2\\Ark.Library.Backend\\Ark.Library.Backend.API\\Ark.Library.Backend.API.csproj",
+      "projectPath": "C:\\Users\\Golsa\\OneDrive\\Desktop\\New folder\\Backend2\\Ark.Library.Backend.API.csproj",
       "packagesPath": "C:\\Users\\Golsa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Golsa\\OneDrive\\Desktop\\ExBackend2\\Ark.Library.Backend\\Ark.Library.Backend.API\\obj\\",
+      "outputPath": "C:\\Users\\Golsa\\OneDrive\\Desktop\\New folder\\Backend2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Golsa\\AppData\\Roaming\\NuGet\\NuGet.Config",

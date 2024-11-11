@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+9hPySxGK8R1uI7P/oPVaW3N5frE6NSY9e+F9sRbpOiFfHq3o6AeB5OWgOA/YMtTo24MHg3iomZA0kKqIftQCg==",
+  "dgSpecHash": "E9346jCr6zpMyxRBvnxub4SgLJ46vySBgYCTnWtTf3+7g5op4TZDEp472Dv0UKyEa6Pih7koG83Ko575yl0AeQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Golsa\\OneDrive\\Desktop\\ExBackend2\\Ark.Library.Backend\\Ark.Library.Backend.API\\Ark.Library.Backend.API.csproj",
+  "projectFilePath": "C:\\Users\\Golsa\\OneDrive\\Desktop\\New folder\\Backend2\\Ark.Library.Backend.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Golsa\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Golsa\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

@@ -13,7 +13,15 @@ builder.Services.AddDbContext<LibraryDatabase>(Options=>{
     Options.UseSqlServer(builder.Configuration.GetConnectionString("MainDB"));
     //hard-coded
 });
+builder.Services.AddCors(Options=>{
+    Options.AddDefaultPolicy(policy=>{
+        policy.AllowAnyHeader()
+        .AllowAnyMethod()
+        .AllowAnyOrigin();
+    });
+});
 var app = builder.Build();
+app.UseCors();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -24,6 +32,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.MapGet("/books/list",(LibraryDatabase db)=>{
+    Thread.Sleep(2000)
     return db.Books.ToList();
 });
 app.MapPost("/books/add",(LibraryDatabase db,Book book)=>{
